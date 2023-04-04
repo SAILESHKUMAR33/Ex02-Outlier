@@ -31,7 +31,7 @@ Remove the outliers.
 Plot the datas using Box Plot.
 
 # PROGRAM:
-
+```
 DEVELOPED BY: SAILESHKUMAR.A
 REGISTER NUMBER: 212222230126
 
@@ -105,7 +105,7 @@ print(outliers_weight)
 newdata_weight=dataset[(dataset['weight']>=l_weight) & (dataset['weight']<=u_weight)]
 print(newdata_weight)
 sns.boxplot(x='weight',data=newdata_weight)
-
+```
 # OUTPUT:
 # bhp.csv
 # df.head()
